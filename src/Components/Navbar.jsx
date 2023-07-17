@@ -3,6 +3,7 @@ import NavBrand from '../img/Brand.svg'
 import {Icon} from 'react-icons-kit'
 import {menu} from 'react-icons-kit/feather/menu'
 import {x} from 'react-icons-kit/feather/x'
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 export default function Navbar() {
   const [toggle, setToggle]=useState(false);
@@ -28,7 +29,7 @@ export default function Navbar() {
               <li><a className='NavBtnList' href="#">Sign In</a></li>
             </ul>
 
-            {/* <a className='NavBtn' href="#">Sign In</a> */}
+            <a className='NavBtn' href="#">Sign In</a>  
         </nav>
       </div>
     </section>

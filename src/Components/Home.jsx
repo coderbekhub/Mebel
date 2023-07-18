@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Hero from './Hero'
+import Header from './Header'
+import Provide from './Provide'
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <Header />
+      <Provide />
     </>
   )
 }

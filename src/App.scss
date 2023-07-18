@@ -33,7 +33,7 @@ a {
 }
 
 .navbarActive{
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in;
   backdrop-filter: saturate(180%) blur(3px) !important;
   background: hsla(0,0%,100%,.8) !important;
   padding: 5px 0px !important;
@@ -210,7 +210,7 @@ a {
       &:hover {
         background: #e95f3db5;
         box-shadow: 0px 5px 10px 2px rgba(242, 100, 64, 0.2);
-        transition: all ease-in-out 0.3s;
+        transition: 0.5s ease-in;
         border-radius: 10px;
 
         h2 {
@@ -229,8 +229,7 @@ a {
             width: 130px;
             height: auto;
             border-radius: 10px;
-            transition: all ease-in-out 0.3s;
-
+            transition: 0.5s ease-in;
           }
          
           &::after {
@@ -281,8 +280,6 @@ a {
         display: flex;
         align-items: center;
 
-        
-
         &::after {
           content: '';
           display: inline-block;
@@ -293,5 +290,85 @@ a {
         }
       }
     }
+  }
+}
+
+// PRODUCT START 
+
+.productSection {
+  padding: 100px 0;
+
+  .productContent {
+    h2  {
+      color: #000;
+      font-size: 60px;
+      font-weight: 600;
+      letter-spacing: -1.8px;
+      margin-bottom: 70px;
+    }
+
+    .productInfo {
+      .imgContent {
+        width: 240px;
+        height: 240px;
+        border-radius: 8px;
+        background: #F8F4F2;
+        margin-bottom: 8px;
+        img {
+          transform: scale(1);
+          transition: all .5s ease-in-out;
+          text-align: center;
+          padding: 32px;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        .productSlider {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+      }
+
+      .productType {
+        color: #0F3141;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.14px;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+      }
+
+      h3 {
+        color:#0F3141;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px; 
+        letter-spacing: 0.2px;
+        margin-bottom: 8px;
+      }
+
+      .productSize {
+        color: var(--neutral-black, #0F3141);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.12px;
+        margin-bottom: 8px;
+        display: block;
+      }
+
+      .productPrice {
+        color: #F07454;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px; 
+        letter-spacing: 0.18px;
+        text-transform: capitalize;
+      }
+    }
+    
   }
 }

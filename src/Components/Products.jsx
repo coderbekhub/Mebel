@@ -14,6 +14,9 @@ export default class Products extends Component {
       centerPadding: "60px",
       slidesToShow: 5,
       swipeToSlide: true,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
       afterChange: function(index) {
         console.log(
           `Slider Changed to: ${index + 1}, background: #222; color: #bada55`

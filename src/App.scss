@@ -65,7 +65,7 @@ a {
 
       .NavBtnList {
         display: flex;
-        width: 120px;
+        width: auto;
         padding: 10px 20px;
         justify-content: center;
         align-items: center;
@@ -93,7 +93,7 @@ a {
 
     .NavBtn {
       display: flex;
-      width: 126px;
+      width: auto;
       padding: 16px 32px;
       justify-content: center;
       align-items: center;
@@ -478,7 +478,7 @@ a {
     }
 
     a {
-      width: 168px;
+      width: 178px;
       height: 56px;
       display: flex;
       padding: 12px 16px;
@@ -608,7 +608,7 @@ a {
       font-weight: 600;
       line-height: 72px;
       letter-spacing: -1.8px;
-      width: 507px;
+      width: 510px;
       margin-bottom: 24px;
     }
 
@@ -622,7 +622,7 @@ a {
       width: 740px;
     }
     .detailsBtn a:nth-child(1) {
-      width: 160px;
+      width: auto;
       display: flex;
       padding: 16px 32px;
       justify-content: center;
@@ -669,7 +669,7 @@ a {
         font-size: 18px;
         font-weight: 400;
         letter-spacing: -0.36px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
       }
 
       .footerInfo {
@@ -739,13 +739,16 @@ a {
         margin-bottom: 24px;
       }
 
-      a {
-        color: #B7C1C6;
-        font-size: 14px;
-        font-weight: 400;
-        text-transform: capitalize;
+      li {
         margin-bottom: 16px;
+        a {
+          color: #B7C1C6;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
       }
+
 
     }
 
@@ -767,7 +770,7 @@ a {
         margin-bottom: 24px;
       }
       li {
-        color: #FFF;
+        color: #B7C1C6;
         font-size: 14px;
         font-weight: 400;
         text-transform: capitalize;

@@ -42,19 +42,19 @@ export default function Header() {
 
             <ul className={active}>
               <li>
-                <a onClick={navToggle}  className='nav-link' href="#">About</a>
+                <a onClick={navToggle}  className='nav-link' href="#">Haqida</a>
               </li>
               <li>
                 <a onClick={navToggle} className='nav-link' href="#">Blog</a>
               </li>
               <li>
-                <a onClick={navToggle} className='nav-link' href="#">Contact</a>
+                <a onClick={navToggle} className='nav-link' href="#">Aloqa</a>
               </li>
               <li>
-                <a className='NavBtnList' href="#">Sign In</a>
+                <a className='NavBtnList' href="#">Tizimga kirish</a>
               </li>
             </ul>
-            <a className='NavBtn' href="#">Sign In</a>  
+            <a className='NavBtn' href="#">Tizimga kirish</a>  
 
             <div onClick={navToggle} className={toggleIcon}>
               <div className="line1"></div>
@@ -68,9 +68,9 @@ export default function Header() {
       <section className='heroSection'>
         <div className="container">
           <div className='heroContent'>
-            <h2>Explore any kind of furnitures</h2>
-            <h3>Better Furniture <br /> Better Living</h3>
-            <a href="#">Check our projects</a>
+            <h2>Har qanday mebellarni sinab ko'ring</h2>
+            <h3>Yaxshi mebel bilan <br /> Yaxshi yashang</h3>
+            <a href="#">Loyihalarimiz</a>
           </div>
         </div>
       </section>

@@ -17,43 +17,43 @@ export default class LastProjects extends Component {
     return (
       <section className="lastProductSection">
         <div className="lastProductContent">
-          <h2 className="container">Our lates projects</h2>
+          <h2 className="container">Bizni so‘nggi loyihalarimiz</h2>
           <div className="lastProductSlider container">
             <Slider {...settings}>
               <div className="lastProductInfo">
                 <img src={LastProductsImg1} alt="..." />
-                <h3>Kitchen</h3>
-                <p>Architech & Interior Design - 2023</p>
+                <h3>Oshxona</h3>
+                <p>Arxitek & Interer dizayni - 2023</p>
               </div>
 
               <div className="lastProductInfo">
                 <img src={LastProductsImg1} alt="..." />
-                <h3>livingroom</h3>
-                <p>Architech & Interior Design - 2023</p>
+                <h3>Mehmonxona</h3>
+                <p>Arxitek & Interer dizayni - 2023</p>
               </div>
 
               <div className="lastProductInfo">
                 <img src={LastProductsImg1} alt="..." />
-                <h3>bedroom</h3>
-                <p>Architech & Interior Design - 2023</p>
+                <h3>yotoqxona</h3>
+                <p>Arxitek & Interer dizayni - 2023</p>
               </div>
 
               <div className="lastProductInfo">
                 <img src={LastProductsImg1} alt="..." />
-                <h3>Kitchen</h3>
-                <p>Architech & Interior Design - 2023</p>
+                <h3>Oshxona</h3>
+                <p>Arxitek & Interer dizayni - 2023</p>
               </div>
 
               <div className="lastProductInfo">
                 <img src={LastProductsImg1} alt="..." />
-                <h3>livingroom</h3>
-                <p>Architech & Interior Design - 2023</p>
+                <h3>Mehmonxona</h3>
+                <p>Arxitek & Interer dizayni - 2023</p>
               </div>
 
               <div className="lastProductInfo">
                 <img src={LastProductsImg1} alt="..." />
-                <h3>bedroom</h3>
-                <p>Architech & Interior Design - 2023</p>
+                <h3>yotoqxona</h3>
+                <p>Arxitek & Interer dizayni - 2023</p>
               </div>
             </Slider>
           </div>

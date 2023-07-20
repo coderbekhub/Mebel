@@ -6,7 +6,7 @@ export default function Footer() {
     <section className="footerSection" id='aloqa'> 
       <div className="container">
         <nav className='footerNav'>
-          <div className='footerContent'>
+          <div data-aos="fade-right" className='footerContent'>
             <img src={FooterBrand} alt="..."/>
               <h2>Yaxshi mebel bilan, yaxshi yashang</h2>
               <div className='footerInfo'>
@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <ul className="footerList">
+            <ul data-aos="fade-down" className="footerList">
               <li>
                 <h2>Veb-sayt</h2>
               </li>
@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
             </ul>
 
-            <ul className="footerCatalog">
+            <ul data-aos="fade-left" className="footerCatalog">
                 <li><h2>Mahsulotlar</h2></li>
                 <li>Javon</li>
                 <li>O'rindiqlar</li>

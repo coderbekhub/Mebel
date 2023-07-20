@@ -70,7 +70,7 @@ export default function Header() {
 
       <section className='heroSection'>
         <div className="container">
-          <div className='heroContent'>
+          <div data-aos="fade-down" className='heroContent'>
             <h2>Har qanday mebellarni sinab ko'ring</h2>
             <h3>Yaxshi mebel bilan <br /> Yaxshi yashang</h3>
             <a href="#">Loyihalarimiz</a>

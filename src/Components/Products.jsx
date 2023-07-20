@@ -26,7 +26,7 @@ export default class Products extends Component {
     return (
       <section className="productSection" id="mahsulot">
         <div className="productContent">
-          <h2 className="container">Ko'p sotiladigan mahsulotlar</h2>
+          <h2 data-aos="fade-down" className="container">Ko'p sotiladigan mahsulotlar</h2>
           <div className="productSlider">
             <Slider {...settings}>
               <div className="productInfo">

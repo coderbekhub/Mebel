@@ -19,7 +19,7 @@ export default class OurClients extends Component {
     return (
       <section className="ourClientSection" id='mijozlarimiz'>
         <div className="ourClientContent">
-          <h2 className="container">Mijozlarimiz fikri</h2>
+          <h2 data-aos="fade-down" className="container">Mijozlarimiz fikri</h2>
           <div className="ourClientSlider container">
             <Slider {...settings}>
             <div className="ourClientInfo d-flex">

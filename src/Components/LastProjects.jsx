@@ -17,7 +17,7 @@ export default class LastProjects extends Component {
     return (
       <section className="lastProductSection" id='loyiha'>
         <div className="lastProductContent">
-          <h2 className="container">Bizni so‘nggi loyihalarimiz</h2>
+          <h2 data-aos="fade-down" className="container">Bizni so‘nggi loyihalarimiz</h2>
           <div className="lastProductSlider container">
             <Slider {...settings}>
               <div className="lastProductInfo">

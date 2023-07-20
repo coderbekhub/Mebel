@@ -45,9 +45,7 @@ export default function Footer() {
                 <li>Seyflar</li>
                 <li>Dekoratsiyalar</li>
             </ul>
-
             <div className='hr'></div>
-
           </nav>
           <div className='companyInfo'>
             <h2>© MEBEL</h2>

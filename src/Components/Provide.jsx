@@ -5,7 +5,7 @@ import ProvideThumbsUp from '../img/thumbs-up.svg'
 
 export default function Provide() {
   return (
-    <section className='provideSection'>
+    <section className='provideSection' id='taminlash'>
       <div className="container">
         <h2 className='provideTitle'>Biz nimani ta'minlaymiz</h2>
         <div className='provideContent row'>

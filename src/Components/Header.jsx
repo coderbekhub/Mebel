@@ -42,13 +42,16 @@ export default function Header() {
 
             <ul className={active}>
               <li>
-                <a onClick={navToggle}  className='nav-link' href="#">Haqida</a>
+                <a onClick={navToggle}  className='nav-link' href="/">Bosh sahifa</a>
               </li>
               <li>
-                <a onClick={navToggle} className='nav-link' href="#">Blog</a>
+                <a onClick={navToggle} className='nav-link' href="#mahsulot">Mahsulotlar</a>
               </li>
               <li>
-                <a onClick={navToggle} className='nav-link' href="#">Aloqa</a>
+                <a onClick={navToggle} className='nav-link' href="#loyiha">Loyihalarimiz</a>
+              </li>
+              <li>
+                <a onClick={navToggle} className='nav-link' href="#aloqa">Aloqa</a>
               </li>
               <li>
                 <a className='NavBtnList' href="#">Tizimga kirish</a>

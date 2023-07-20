@@ -17,7 +17,7 @@ export default class OurClients extends Component {
       cssEase: "linear"
     };
     return (
-      <section className="ourClientSection">
+      <section className="ourClientSection" id='mijozlarimiz'>
         <div className="ourClientContent">
           <h2 className="container">Mijozlarimiz fikri</h2>
           <div className="ourClientSlider container">

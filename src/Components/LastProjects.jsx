@@ -15,7 +15,7 @@ export default class LastProjects extends Component {
       cssEase: "linear"
     };
     return (
-      <section className="lastProductSection">
+      <section className="lastProductSection" id='loyiha'>
         <div className="lastProductContent">
           <h2 className="container">Bizni so‘nggi loyihalarimiz</h2>
           <div className="lastProductSlider container">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function NewComer() {
   return (
-    <section className='newComerSection'>
+    <section className='newComerSection' id='yangi-mahsulot'>
       <div className="container">
         <div className="newComerContent">
           <h2>Yangi kelgan mahsulot</h2>

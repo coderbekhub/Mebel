@@ -3,7 +3,7 @@ import FooterBrand from '../img/footerBrand.svg'
 
 export default function Footer() {
   return (
-    <section className="footerSection">
+    <section className="footerSection" id='aloqa'> 
       <div className="container">
         <nav className='footerNav'>
           <div className='footerContent'>
@@ -25,16 +25,16 @@ export default function Footer() {
                 <h2>Veb-sayt</h2>
               </li>
               <li>
-                <a href="#">Bosh sahifa</a>
+                <a href="/">Bosh sahifa</a>
               </li>
               <li>
-                <a href="#">Biz haqimizda</a>
+                <a href="#taminlash">Biz haqimizda</a>
               </li>
               <li>
-                <a href="#">Xizmatlar</a>
+                <a href="#mijozlarimiz">Mijozlar fikri</a>
               </li>
               <li>
-                <a href="#">Biz bilan bog'lanish</a>
+                <a href="#yangi-mahsulot">Yangi mahsulotlar</a>
               </li>
             </ul>
 
@@ -59,22 +59,22 @@ export default function Footer() {
 
             <ul className="footerSocialList">
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/webmarketing_uz/" target='_blank'>
                   <i className='bx bxl-instagram-alt'></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100094433897785" target='_blank'>
                   <i className='bx bxl-facebook' ></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className='bx bxl-linkedin' ></i>
+                <a href="https://t.me/webmarketing_hr" target='_blank'>
+                  <i className='bx bxl-telegram' ></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#" target='_blank'>
                   <i className='bx bxl-twitter' ></i>
                 </a>
               </li>

@@ -11,18 +11,57 @@ export default class Products extends Component {
     const settings = {
       className: "center",
       infinite: true,
+      dots: false,
       centerPadding: "60px",
       slidesToShow: 5,
       swipeToSlide: true,
+      slidesToScroll: 5,
+      initialSlide: 0,
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
+
+      responsive: [
+        {
+          breakpoint: 1230,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 525,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ],
+
       afterChange: function(index) {
         console.log(
           `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
         );
       }
     };
+
     return (
       <section className="productSection" id="mahsulot">
         <div className="productContent">

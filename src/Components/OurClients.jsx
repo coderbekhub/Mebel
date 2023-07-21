@@ -9,12 +9,28 @@ export default class OurClients extends Component {
     const settings = {
       className: "center",
       infinite: true,
-      slidesToShow: 1.4,
-      slidesToScroll: 1,
+      dots: false,
+      centerPadding: "60px",
+      slidesToShow: 1.1,
+      swipeToSlide: true,
+      slidesToScroll: 1.1,
+      initialSlide: 0,
       autoplay: true,
       speed: 6000,
       autoplaySpeed: 6000,
-      cssEase: "linear"
+
+      // responsive: [
+      //   {
+      //     breakpoint: 964,
+      //     settings: {
+      //       slidesToShow: 1,
+      //       slidesToScroll: 1,
+      //       infinite: true,
+      //       dots: false
+      //     }
+      //   }
+      // ],
+
     };
     return (
       <section className="ourClientSection" id='mijozlarimiz'>
@@ -22,7 +38,7 @@ export default class OurClients extends Component {
           <h2 data-aos="fade-down" className="container">Mijozlarimiz fikri</h2>
           <div className="ourClientSlider container">
             <Slider {...settings}>
-            <div className="ourClientInfo d-flex">
+              <div className="ourClientInfo d-flex contentCenter">
                 <img src={OurClient2} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
@@ -32,7 +48,7 @@ export default class OurClients extends Component {
                   <span>1</span>
                 </div>
               </div>
-              <div className="ourClientInfo d-flex">
+              <div className="ourClientInfo d-flex contentCenter">
                 <img src={OurClient1} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
@@ -43,7 +59,7 @@ export default class OurClients extends Component {
                 </div>
               </div>
 
-              <div className="ourClientInfo d-flex">
+              <div className="ourClientInfo d-flex contentCenter">
                 <img src={OurClient2} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
@@ -54,7 +70,7 @@ export default class OurClients extends Component {
                 </div>
               </div>
               
-              <div className="ourClientInfo d-flex">
+              <div className="ourClientInfo d-flex contentCenter">
                 <img src={OurClient1} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
@@ -65,7 +81,7 @@ export default class OurClients extends Component {
                 </div>
               </div>
 
-              <div className="ourClientInfo d-flex">
+              <div className="ourClientInfo d-flex contentCenter">
                 <img src={OurClient2} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
@@ -76,7 +92,7 @@ export default class OurClients extends Component {
                 </div>
               </div>
 
-              <div className="ourClientInfo d-flex">
+              <div className="ourClientInfo d-flex contentCenter">
                 <img src={OurClient1} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />

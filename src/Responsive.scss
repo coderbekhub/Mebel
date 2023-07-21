@@ -1,4 +1,5 @@
-@media(max-width: 768px){
+@media(max-width: 826px){
+  // NAV BAR
   .Navbar{
     .navBody{
       .nav-logo{
@@ -50,6 +51,218 @@
   }
   .NavBtn {
     display: none !important;
+  }
+
+  // HERO
+
+  .heroSection {
+    padding-top: 150px;
+    .heroContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      align-items: center;
+      h2 {
+        font-size: 15px;
+        line-height: 20px; 
+        letter-spacing: 0.18px;
+        margin-bottom: 10px;
+      }
+  
+      h3 {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 52px; 
+        letter-spacing: -2.64px;
+        margin-bottom: 20px;
+      }
+  
+      a {
+        padding: 10px 14px;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: -0.18px;
+        width: 212px;
+        height: 46px;
+  
+        &::after {
+          content: '';
+          display: inline-block;
+          background: url(img/heroBtnIcon.svg);background-repeat: no-repeat; background-size: cover; background-position: center;
+          width: 32px;
+          height: 32px;
+        }
+  
+        &:hover {
+          color: #ffffffd8;
+        }
+      }
+    }
+  }
+
+  // PROVIDE 
+
+  .provideSection {
+    padding: 50px 0;
+    .provideTitle {
+      font-size: 44px;
+      font-weight: 600;
+      letter-spacing: -1.8px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+  
+    .provideContent {
+      margin: 0 auto;
+      justify-content: center;  
+      .provideInfo {
+        width: auto;
+        padding: 20px;
+        cursor: pointer;
+        
+        img {
+          width: 48px;
+          height: 48px;
+          margin-bottom: 10px;
+        }
+  
+        h2 {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 24px; 
+          letter-spacing: -0.48px;
+          margin-bottom: 15px;
+        }
+  
+        p {
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 0.18px;
+          margin-bottom: 20px;
+          width: 360px;
+        }
+  
+        a {
+          color: #F26440;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 27px; 
+          letter-spacing: 0.14px;
+          display: flex;
+          align-items: center;
+  
+          &::after {
+            content: '';
+            display: inline-block;
+            background: url(img/ProvideArrowRight.svg); background-size: cover;background-position: center; background-repeat: no-repeat;
+            width: 24px;
+            height: 24px;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+
+@media (max-width: 450px) {
+  // HERO
+
+  .heroSection {
+    padding-top: 150px;
+    .heroContent {
+      h2 {
+        font-size: 14px;
+        line-height: 20px; 
+        letter-spacing: 0.14px;
+        margin-bottom: 8px;
+        text-align: center;
+      }
+  
+      h3 {
+        width: auto;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 42px; 
+        letter-spacing: -1.32px;
+        margin-bottom: 24px;
+      }
+  
+      a {
+        padding: 10px 14px;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: -0.18px;
+        width: 212px;
+        height: 46px;
+  
+        &::after {
+          content: '';
+          display: inline-block;
+          background: url(img/heroBtnIcon.svg);background-repeat: no-repeat; background-size: cover; background-position: center;
+          width: 32px;
+          height: 32px;
+        }
+  
+        &:hover {
+          color: #ffffffd8;
+        }
+      }
+    }
+  }
+
+  // PROVIDE 
+
+  .provideSection {
+    padding: 30px 0;
+    .provideTitle {
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: -1.2px;
+      margin-bottom: 36px;
+    }
+  
+    .provideContent {
+      .provideInfo {
+        width: auto;
+        padding: 20px;
+        
+        h2 {
+          font-size: 24px;
+          width: auto;
+          font-weight: 600;
+          line-height: 34px; 
+          letter-spacing: -0.48px;
+          margin-bottom: 15px;
+        }
+  
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 25px; 
+          letter-spacing: 0.16px;
+          width: auto;
+        }
+  
+        a {
+          color: #F26440;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 27px; 
+          letter-spacing: 0.14px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
   }
 
 }

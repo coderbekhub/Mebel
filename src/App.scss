@@ -7,13 +7,7 @@
   font-family: 'Inter', sans-serif;
 }
 
-$body-bg : #F2F2F4;
 $text-color : #17203F;
-$red : #A00531;
-$card-bg : #F3F6FB;
-$header-text : #FBE8CC;
-$red2 : #E65538;
-$blue : #0075E1;
 
 .container {
   max-width: 1300px;
@@ -30,6 +24,12 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.contentCenter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .navbarActive{
@@ -118,7 +118,7 @@ a {
         width: 36px;
         height: 0.2rem;
         margin: 0.4rem;
-        background: $red;
+        background: #F07454;
         transition: 0.5s ease-in;
       }
     }

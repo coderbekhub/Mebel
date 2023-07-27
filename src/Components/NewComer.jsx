@@ -9,15 +9,17 @@ export default function NewComer() {
           <h3 data-aos="fade-right">Ikkita o‘rindiqli</h3>
           <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas luctus malesuada et volutpat, pellentesque dignissim suscipit. </p>
           <span data-aos="fade-right">Mavjud ranglar</span>
-          <input data-aos="fade-right" type="checkbox" />
-          <input data-aos="fade-right" type="checkbox" />
-          <input data-aos="fade-right" type="checkbox" />
-          <input data-aos="fade-right" type="checkbox" />
-          <input data-aos="fade-right" type="checkbox" />
-          <br />
-          <br />
-          <br />
-          <a data-aos="fade-right" href="#">Harid qilish</a>
+          <form action="">
+            <input data-aos="fade-right" type="radio" />
+            <input data-aos="fade-right" type="radio" />
+            <input data-aos="fade-right" type="radio" />
+            <input data-aos="fade-right" type="radio" />
+            <input data-aos="fade-right" type="radio" />
+            <br />
+            <br />
+            <br />
+            <a data-aos="fade-right" href="#">Harid qilish</a>
+          </form>
         </div>        
       </div>
     </section>

@@ -35,7 +35,7 @@
         justify-content: center;
         transform: translateX(100%);
         margin-top: 0;
-        transition: 0.5s ease-in;
+        transition: 0.3s ease-in;
         
         .NavBtnList {
           display: inline-block;
@@ -282,6 +282,82 @@
 
   }
 }
+
+  // OUR CLIENT START
+
+  .ourClientSection {
+    padding: 50px 0;
+    .ourClientContent {
+      h2 {
+        font-size: 44px;
+        font-weight: 600;
+        letter-spacing: -1.6px;
+        margin-bottom: 37px;
+      }
+
+      .ourClientSlider {
+        .ourClientInfo {
+          display: flex;
+          flex-direction: column;
+          cursor: pointer;
+          width: 327px !important;
+          height: auto;
+          border-radius: 16px;
+          padding: 37px 20px 42px 20px;
+          margin-right: 0px;
+
+          .clientsImg {
+            width: 144px;
+            height: 200px;
+            border-radius: 16px;
+            margin-right: 0px;
+            margin: 0 auto;
+            margin-bottom: 17px;
+          }
+
+          h3 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26px; 
+            letter-spacing: -0.54px;
+            width: auto;
+            margin-bottom: 24px;
+          }
+
+          p {
+            color: #78756E;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px; 
+            margin-bottom: 23px;
+            width: auto;
+          }
+
+          h4 {
+            color: #565554;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px; 
+            letter-spacing: -0.36px;
+            opacity: 0.699999988079071;
+          }
+
+          span {
+            font-size: 188px;
+            font-weight: 700;
+            letter-spacing: 2.88px;
+            opacity: 0.10000000149011612;
+            position: relative;
+            top: 50px;
+            left: 190px;
+            line-height: 0;
+          }
+
+        }
+      }
+    }
+  }
+
 
 }
 
@@ -582,95 +658,4 @@
     }
   }
   
-}
-
-@media (max-width: 1115px) {
-  // OUR CLIENT START
-
-  .ourClientSection {
-    padding: 160px 0;
-
-    .ourClientContent {
-      h2 {
-        color: #000;
-        font-size: 60px;
-        font-weight: 600;
-        letter-spacing: -1.8px;
-        margin-bottom: 67px;
-      }
-
-      .ourClientSlider {
-        .ourClientInfo {
-          cursor: pointer;
-          &:hover {
-            span {
-              color: #F26440;
-              opacity: 1;
-              transition: all ease-in .3s;
-            }
-          }
-          width: auto !important;
-          height: 493px;
-          border-radius: 16px;
-          padding: 48px 62px 48px 48px;
-          margin-right: 50px;
-
-          img {
-            width: 286px;
-            height: 397px;
-            border-radius: 16px;
-            margin-right: 47px;
-          }
-
-          .quoteIcon {
-            width: 32px;
-            height: 32px;
-            object-fit: cover;
-            color: #F26440;
-            margin-bottom: 16px;
-          }
-
-          h3 {
-            color: #0F3141;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 26px; 
-            letter-spacing: -0.72px;
-            width: auto;
-            margin-bottom: 24px;
-          }
-
-          p {
-            color: #78756E;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 28px; 
-            margin-bottom: 35px;
-            width: auto;
-          }
-
-          h4 {
-            color: #565554;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 27px; 
-            letter-spacing: -0.36px;
-            opacity: 0.699999988079071;
-          }
-
-          span {
-            color: #0F3141;
-            font-size: 288px;
-            font-weight: 700;
-            letter-spacing: 2.88px;
-            opacity: 0.10000000149011612;
-            position: relative;
-            top: -180px;
-            left: 280px;
-          }
-        }
-      }
-    }
-  }
-
 }

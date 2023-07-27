@@ -19,17 +19,76 @@ export default class OurClients extends Component {
       speed: 6000,
       autoplaySpeed: 6000,
 
-      // responsive: [
-      //   {
-      //     breakpoint: 964,
-      //     settings: {
-      //       slidesToShow: 1,
-      //       slidesToScroll: 1,
-      //       infinite: true,
-      //       dots: false
-      //     }
-      //   }
-      // ],
+      responsive: [
+        {
+          breakpoint: 1260,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 826,
+          settings: {
+            slidesToShow: 1.2,
+            slidesToScroll: 1.2,
+            infinite: true,
+            dots: false
+          }
+        },
+
+        {
+          breakpoint: 685,
+          settings: {
+            slidesToShow: 1.2,
+            slidesToScroll: 1.2,
+            infinite: true,
+            dots: false
+          }
+        },
+
+        {
+          breakpoint: 676,
+          settings: {
+            slidesToShow: 1.2,
+            slidesToScroll: 1.2,
+            infinite: true,
+            dots: false
+          }
+        },
+
+        {
+          breakpoint: 444,
+          settings: {
+            slidesToShow: 1.1,
+            slidesToScroll: 1.1,
+            infinite: true,
+            dots: false
+          }
+        },
+
+        {
+          breakpoint: 400,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+
+        {
+          breakpoint: 975,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        }
+      ],
 
     };
     return (
@@ -39,7 +98,7 @@ export default class OurClients extends Component {
           <div className="ourClientSlider container">
             <Slider {...settings}>
               <div className="ourClientInfo d-flex contentCenter">
-                <img src={OurClient2} alt="..." />
+                <img className='clientsImg' src={OurClient2} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
                   <h3>Aytish kerakki, mebel sanoatidagi 10 yillik tajriba butunlay izsiz ketmaydi</h3>
@@ -49,7 +108,7 @@ export default class OurClients extends Component {
                 </div>
               </div>
               <div className="ourClientInfo d-flex contentCenter">
-                <img src={OurClient1} alt="..." />
+                <img className='clientsImg' src={OurClient1} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
                   <h3>Aytish kerakki, mebel sanoatidagi 10 yillik tajriba butunlay izsiz ketmaydi</h3>
@@ -60,7 +119,7 @@ export default class OurClients extends Component {
               </div>
 
               <div className="ourClientInfo d-flex contentCenter">
-                <img src={OurClient2} alt="..." />
+                <img className='clientsImg' src={OurClient2} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
                   <h3>Aytish kerakki, mebel sanoatidagi 10 yillik tajriba butunlay izsiz ketmaydi</h3>
@@ -71,7 +130,7 @@ export default class OurClients extends Component {
               </div>
               
               <div className="ourClientInfo d-flex contentCenter">
-                <img src={OurClient1} alt="..." />
+                <img className='clientsImg' src={OurClient1} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
                   <h3>Aytish kerakki, mebel sanoatidagi 10 yillik tajriba butunlay izsiz ketmaydi</h3>
@@ -82,7 +141,7 @@ export default class OurClients extends Component {
               </div>
 
               <div className="ourClientInfo d-flex contentCenter">
-                <img src={OurClient2} alt="..." />
+                <img className='clientsImg' src={OurClient2} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
                   <h3>Aytish kerakki, mebel sanoatidagi 10 yillik tajriba butunlay izsiz ketmaydi</h3>
@@ -93,7 +152,7 @@ export default class OurClients extends Component {
               </div>
 
               <div className="ourClientInfo d-flex contentCenter">
-                <img src={OurClient1} alt="..." />
+                <img className='clientsImg' src={OurClient1} alt="..." />
                 <div>
                   <img className='quoteIcon' src={QuoteIcon} alt="..." />
                   <h3>Aytish kerakki, mebel sanoatidagi 10 yillik tajriba butunlay izsiz ketmaydi</h3>

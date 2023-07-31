@@ -5,7 +5,7 @@ import Products from './Products'
 import LastProjects from './LastProjects'
 import NewComer from './NewComer'
 import OurClients from './OurClients'
-// import Details from './Details'
+import Details from './Details'
 // import Footer from './Footer'
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <LastProjects />
       <NewComer />
       <OurClients />
-      {/* <Details /> */}
+      <Details />
       {/* <Footer /> */}
     </>
   )

@@ -621,6 +621,10 @@ a {
       margin-bottom: 80px;
       width: 740px;
     }
+    .detailsBtn {
+      display: flex;
+      align-items: center;
+    }
     .detailsBtn a:nth-child(1) {
       width: auto;
       display: flex;

@@ -6,7 +6,7 @@ import LastProjects from './LastProjects'
 import NewComer from './NewComer'
 import OurClients from './OurClients'
 import Details from './Details'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <NewComer />
       <OurClients />
       <Details />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
